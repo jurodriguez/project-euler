@@ -1,6 +1,8 @@
+package net.projecteuler
+
 import scala.collection.mutable.ArrayBuffer
 
-object Main {
+object Problema97 {
   def main(args: Array[String]) {
     val mod = BigInt("10000000000")
     var s = BigInt(2).modPow(7830457,mod)
